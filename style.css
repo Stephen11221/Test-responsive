@@ -1,0 +1,40 @@
+.nav-p button:hover{
+    background: rgba(0, 66, 33, 0.3);
+    color: bisque;
+    border: 2px groove  blue;
+}
+.nav-p button{
+    margin-left: 20px;
+}
+
+.btn-hover:hover{
+    background: none;
+    color: white ;
+}
+.nav-p{
+    margin-left: 250px;
+    text-align:  center;
+}
+.homp{
+    height: 500px;
+    width: 500px;
+    border: 12px groove blue;
+    border-radius: 200px;
+
+}
+@media screen and (max-width: 600px) {
+    .nav-p {
+        margin-left: 20px;
+        font-weight: bold;
+    }
+        .nav-p button{
+        margin-top: 30px;
+    }
+    .homp{
+        height: 300px;
+        width: 300px;
+        border: 6px groove blue;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+}
